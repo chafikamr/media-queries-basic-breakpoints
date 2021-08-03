@@ -29,3 +29,28 @@
         Width   : starts from 1200px without any breakpoint to stop in.
 */
 @media(min-width:1200px){}
+
+
+
+
+/* container  default */
+.container{
+        margin: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+ /* container for small screens */
+ @media(min-width:768px){
+        .container{ width: 750px }
+ }
+
+ /* container for medium screens */
+ @media(min-width:992px){
+        .container{ width: 970px }
+ }
+
+ /* container for large and extra large screens */
+ @media(min-width:992px){
+        .container{ width: 1170px }
+ }
