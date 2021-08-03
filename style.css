@@ -1,0 +1,31 @@
+
+
+
+
+
+/* 
+        Devices : MobilePhones & Tablets width low resolution. 
+        Width   : Under 767px. 
+*/
+@media(max-width:767px){}
+
+
+/* 
+        Devices : Tablets  and small screen laptops
+        Width   : between 768px and 992px 
+*/
+@media(min-width:768px){}
+
+
+/* 
+        Devices : laptops with medium screen sizes.
+        Width   : between 992px and 1200px. 
+*/
+@media(min-width:992px){}
+
+
+/* 
+        Devices : large and extra large screens.
+        Width   : starts from 1200px without any breakpoint to stop in.
+*/
+@media(min-width:1200px){}
